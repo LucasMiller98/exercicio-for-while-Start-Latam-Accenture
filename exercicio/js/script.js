@@ -1,3 +1,4 @@
+// Para a tabuada
 function iniciaTabuada() {
     let num = document.getElementById('input-table')
     let tab = document.getElementById('show-table-screen')
@@ -24,6 +25,7 @@ function iniciaTabuada() {
         }
     }
 }
+// Para os comentários
 function iniciaComentario() {
     let res_comentario = document.getElementById('res-comentario')
     let commentary = document.getElementById('commentary')
