@@ -1,0 +1,133 @@
+* {margin: 0; padding: 0;}
+/* 
+    Corpo
+*/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* 
+    Cabeçalho
+*/
+header {
+    text-align: center;
+    font-size: 1vw;
+    margin-top: 15px;
+}
+
+/* 
+    Conteúdo principal
+*/
+main {
+    line-height: 1.5em;
+    margin: auto;
+    text-align: justify;
+    text-justify: inter-word;
+    width: 700px;
+    margin-top: 15px;
+    font-size: 1vw;
+}
+aside h3, article h3 {
+    margin: 15px 0;
+}
+/* da tabuada */
+#show-table-screen {
+    padding: 49px;
+    margin: 15px 0;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1vw;
+    background-color: #005800;
+    color: #ffffff;
+    padding: 10px 90px;
+}
+#input-table {
+    border: none;
+    border-bottom: 2px solid #005800;
+    outline: none;
+    padding: 4px;
+    color: #005800;
+    font-weight: 700;
+}
+/* O ::-webkit-inner-spin-button vai retirar as setas do campu input */
+#input-table::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+textarea {
+    resize: none;
+    border-radius: 1rem 2rem;
+    font-size: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    outline: none;
+    border: 1px solid #005800;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 12px;
+}
+textarea:focus{
+    background-color: #005800;
+    color: #ffffff;
+}
+#button-table, #button-commentary {
+    padding: 4px;
+    border-radius: 1rem 2rem;
+    border: 1px solid #005800;
+    margin: 10px 0;
+    color: #005800;
+    background-color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    outline: none;
+}
+#button-commentary {
+    margin-bottom: 27px;
+}
+#button-table:hover, #button-commentary:hover {
+    background-color: #005800;
+    color: #ffffff;
+}
+
+/* 
+    Rodapé
+*/
+.fab {
+    color: #ffffff;
+    font-size: 1vw;
+}
+.fa-github {
+    position: relative;
+    left: 70px;
+    margin-top: 10px;
+}
+.fa-linkedin-in {
+    position: relative;
+    bottom: 22px;
+    left: 20px;
+}
+.footer {
+    margin: 15px;
+    position: relative;
+    bottom: 80px;
+}
+#profissional {
+    position: relative;
+    left: 500px;
+}
+#direitos {
+    position: relative;
+    left: 200px;
+}
+.criador-direitos {
+    position: relative;
+    bottom: 100px;
+}
+footer {
+    background-color: #606060;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 150px 0;
+}
